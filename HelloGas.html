@@ -3,12 +3,67 @@
   <head>
     <title>HelloGas</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, scalable=no, shrink-to-fit=no maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/personalizado.css">
 </head>
   <body>
+    <div class="col-4 cont-cab mx-auto d-block" class="cont-cab">
+      <div class="helloga">
+        <img src="img/hellogas.jpg"> 
+      </div>
+        <div class="col-4 mx-auto d-block" class="cont-socialnet">
+          <div class="facebook">
+            <img src="img/facebook.png">
+          </div>
+        </div>
+          <div class="col-4 mx-auto d-block" class="cont-social">
+            <div class="twitter">
+              <img src="img/twitter.png">
+            </div>
+          </div>
+          <div class="col-4 mx-auto d-block" class="cont-socialn">
+            <div class="instagram">
+              <img src="img/instagram.png">
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------
    <style type="text/css">
     .borde: {
       background-color: #158A7C;
@@ -26,48 +81,86 @@
       background-color: #00859D;
       height: 800px;
     }
+    img{
+      max-width: 100%;
+      min-width: 50%;
+    }
     </style>
-
-<!--------------------COMIENZA EL CONTENIDO---->
+----------------COMIENZA EL CONTENIDO----
 <div class="container-fluid">
       <div class="row">
           <div class="col-4 borde3">
               <br>
-              <img src="img/hellogas.jpg" class="w-50 rounded-circle mx-auto d-block "> 
+              <img srcset="img/hellogas.jpg 1x" class=" rounded-circle mx-auto d-block "> 
               </br>
             <div class="row">
               <br>
-              <!-----------LINKS DE REDES SOCIALES-------------->
-              <div class="col-4"><nav class="navbar">
-                    <a class="navbar-brand" href="https://www.facebook.com/" class="w-20 rounded  mx-auto d-block ">
-                      <img src="img/facebook.png" class="w-20 img-fluid rounded mx-auto d-block">
+              ---------LINKS DE REDES SOCIALES--------------
+              <div class="col-4 "><nav class="navbar">
+                    <a class="navbar-brand mx-auto d-block" href="https://www.facebook.com/">
+                      <img srcset="img/facebook.png  " class="w-20 img-fluid ">
                     </a>
                   </nav>
                 </div>
                 
                 <div class="col-4"><nav class="navbar">
-                    <a class="navbar-brand" href="https://twitter.com/?lang=es" class="w-20 rounded  mx-auto d-block  ">
-                      <img src="img/twitter.png" class="w-20 img-fluid rounded mx-auto d-block">
+                    <a class="navbar-brand mx-auto d-block" href="https://twitter.com/?lang=es">
+                      <img src="img/twitter.png" class="w-80 w-md-20  img-fluid ">
                     </a>
                   </nav>
                 </div>
 
                 <div class="col-4 "><nav class="navbar">
-                    <a class="navbar-brand" href="https://www.instagram.com/?hl=es-la" class="w-20 rounded  mx-auto d-block ">
-                      <img src="img/instagram.png" class="w-20 img-fluid rounded mx-auto d-block">
+                    <a class="navbar-brand mx-auto d-block" href="https://www.instagram.com/?hl=es-la" class="w-20">
+                      <img src="img/instagram.png" class="w-20 img-fluid">
                     </a>
                   </nav>
                 </div>
               </br>
             </div>
+
+------------FOOTER-------------------------- 
+                <br>
+                <br>
+                <br>
+                  <footer class="container">
+                    <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-6">
+                              <nav class="navbar">
+                                <a class="navbar-brand mx-auto d-block img-fluid" href="https://play.google.com/store?hl=es" class="w-15 rounded">
+                                <img src="img/playstore.png" class="weight-15 img-fluid rounded">
+                                </a>
+                              </nav>
+                            </div>
+                
+                            <div class="col-6">
+                              <nav class="navbar">
+                                <a class="navbar-brand mx-auto d-block img-fluid" href="https://www.apple.com/mx/ios/app-store/" class="w-15 rounded">
+                                <img src="img/appstore.png" class="w-15 w img-fluid rounded">
+                                </a>
+                              </nav>
+                            </div>
+                          </div>
+                        </div>
+                      <p class="font-weight-normal text-info text-fluid " >&copy; 2017-2019 HelloGas &middot; 
+                        <a  href="#"  class="font-weight-normal text-info">Políticas de Privacidad</a> &middot; 
+                        <a href="#" class="font-weight-normal text-info">Términos y Condiciones</a>
+                      </p>
+                      </footer>
+              </br>
+              </br>
+              </br>
           </div>
 
-<!--------2DA COLUMNA------------------------------------>
+-------------FOOTER-------------------------->
+
+<!--------2DA COLUMNA-----------------------------------
         <div class="col-8">
 
-<!--------CAROUSEL------------------------------------>
+-----CAROUSEL-----------------------------------
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-<!--------IMÁGENES------------------------------------>
+-------IMÁGENES-----------------------------------
         <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/banner01b.png " class="d-block" >
@@ -79,7 +172,7 @@
               <img src="img/banner06.png" class="d-block" >
           </div>
         </div>
-<!--------CONTROLES------------------------------------>
+----CONTROLES-----------------------------------
           <div>
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -90,21 +183,15 @@
               <span class="sr-only">Next</span>
           </a>
           </div>
-<!--------CONTROLES FIN------------------------------------>
+-----CONTROLES FIN-----------------------------------
         </div>
-<!--------FIN CAROUSEL------------------------------------>
+------FIN CAROUSEL-----------------------------------
     </div>
-<!--------FIN DE LA 2DA COLUMNA------------------------------------>
+------FIN DE LA 2DA COLUMNA-----------------------------------
   </div>
-  <!--------FIN DE LOS ESPACIOS------------------------------------>
+-----FIN DE LOS ESPACIOS-----------------------------------
 </div>
-<!--------FIN DEL CONTENEDOR------------------------------------>
-
-
-
-
-
-
+-----FIN DEL CONTENEDOR------------------------------------>
 
 
 

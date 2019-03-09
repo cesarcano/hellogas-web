@@ -1,0 +1,33 @@
+/********CELDA LADO IZQ**************/
+.cont-cab{
+	background-color: #00859D;
+	height: 800px; 
+	width: 800px;
+}
+/********LOGO**************/
+.hellogas{
+	width: 100px;
+	height: 100px;
+}
+
+.hellogas img{
+	min-width: 100%;
+	max-width: 100%;
+	margin-top: 15px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+/********REDES SOCIALES**************/
+.facebook img{
+	width: 50%;
+	margin-top: 30px;
+}
+.twitter img{
+	width: 50%;
+	margin-top: 30px;
+}
+.instagram img{
+	width: 50%;
+	margin-top: 30px;
+}
