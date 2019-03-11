@@ -1,13 +1,16 @@
 /********CELDA LADO IZQ**************/
+body{
+	margin: 0;
+}
 .cont-cab{
 	background-color: #00859D;
-	height: 800px; 
-	width: 800px;
+	height: 900px; 
+	width: 900px;
 }
 /********LOGO**************/
 .hellogas{
-	width: 100px;
-	height: 100px;
+	width: 300px;
+	height: 300px;
 }
 
 .hellogas img{
@@ -20,14 +23,33 @@
 
 /********REDES SOCIALES**************/
 .facebook img{
-	width: 50%;
-	margin-top: 30px;
+	width: 500%;
+	margin-top: 80px;
 }
 .twitter img{
-	width: 50%;
-	margin-top: 30px;
+	width: 500%;
+	margin-top: 80px;
 }
 .instagram img{
-	width: 50%;
-	margin-top: 30px;
+	width: 500%;
+	margin-top: 80px;
+}
+
+/**********NAVEGADOR*******************/
+.nav a{
+	margin-top: 50px;
+	color: #54BBAB;
+	text-align: center;
+}
+/********FOOTER***************/
+.footer a{
+	color: #54BBAB; 
+}
+.playstore img{
+	width: 65%;
+	margin-top: 50px;
+}
+.appstore img{
+	width: 65%;
+	margin-top: 50px;
 }
