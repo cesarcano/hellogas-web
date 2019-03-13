@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet"  href="css/personalizado.css">
+    <link rel="stylesheet"  href="js/myjquery.js">
 </head>
   <body>
 <div  class="containerprincipal">
@@ -26,7 +27,7 @@
           
           <a href="https://www.facebook.com/">
             <div class="facebook " >
-            <img src="img/facebook.png">
+            <img src="img/facebook.jpg">
             </div>
           </a>
         </div>
@@ -60,9 +61,45 @@
     <div class="navegacion">
       <ul class="nav flex-column">
         <br>
-          <li class="nav-item"><a class="nav-link active" href="#"><p>INICIO</p></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><p><br>ACERCA DE</br></p></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><p><br>CONTÁCTANOS</br></p></a></li>
+          <li class="nav-item"><a class="nav-link" href="#seccion1"><p>INICIO</p></a></li>
+          <li class="nav-item"><a class="nav-link" href="#seccion2"><p><br>ACERCA DE</br></p></a></li>
+        
+<!--------------------------MODAL------------------------------------------------------------->
+          <div class="container-modal">
+          <li class="nav-item"><a class="nav-link" href="#contactanos" data-toggle="modal"><p><br>CONTÁCTANOS</br></p></a></li>
+            <div class="modal fade" id="contactanos" tabindex="-1" role="dialog" aria-labelledby="titulo" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="titulo">Contáctanos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Nombre/Empresa</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                          <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Correo Electrónico</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                          </div>
+                            <div class="form-group">
+                            <label for="message-text" class="col-form-label">Mensaje</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                      </form>
+                    </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-lg">Enviar</button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!----------------------------------------------------------------------------------------------------->
         </br>
       </ul>
     </div>
@@ -88,13 +125,15 @@
     </div> 
     <p class="footer ">
       <a class="copy" >&copy;2017-2019 HelloGas</a> &middot;
-      <a  class="políticas" href="#"  class="font-weight-normal text-info">Políticas de Privacidad</a> &middot; 
-      <a class="terms" href="#" class="font-weight-normal text-info">Términos y Condiciones</a>
+      <a  class="políticas" href="#"  class="font-weight-normal">Políticas de Privacidad</a> &middot; 
+      <a class="terms" href="#" class="font-weight-normal ">Términos y Condiciones</a>
     </p>
         </div>
 <!--------------------------------------------------------------------------------------------------> 
-<!-------------------------------------------CAROUSEL---------------------------------------------->
-            <div class="col-8 " class="contslider" >
+<!-------------------------------------------CAROUSEL/SECCIÓN1---------------------------------------------->
+            
+            <div class="col-8 " class="contslider" id="seccion1" >
+              <div data-spy="scroll" data-target="#nav" data-offset="0" class="scrollspy-example">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -127,8 +166,8 @@
           </a>
           </div>
           </div>
-<!---------------------------ACERCA DE------------------------------------------------->
-            <div class="container-acercade">
+<!---------------------------ACERCA/SECCIÓN2 DE------------------------------------------------->
+            <div class="container-acercade" id="seccion2">
               <div class="row">
                 <div class="col-2"></div>
                 <div class="col-8">
@@ -139,10 +178,12 @@
                 <div class="col-2"></div>
               </div>
             </div>
+          </div>
 <!----------------------------------------------------------------------------------------->
       </div>
     </div>
-  </div>    
+  </div> 
+</div>   
 
   
 

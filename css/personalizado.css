@@ -26,6 +26,9 @@ body{
 	width: 500%;
 	margin-top: 80px;
 }
+.facebook img:hover{
+	color: white;
+}
 .twitter img{
 	width: 500%;
 	margin-top: 80px;
@@ -86,6 +89,30 @@ body{
     letter-spacing: 4px;
     font-size: 35px;
 }
+/***********MODAL*******************************/
+.modal-header h5{
+	font-family: open sans,sans-serif 
+	letter-spacing: 1px;
+    margin-top: 0;
+    color: #00859D;
+}
+.form-group label{
+	font-family: open sans,sans-serif 
+	letter-spacing: 1px;
+    margin-top: 0;
+    color: #54BBAB;
+}
+.modal-footer button{
+	font-family: open sans,sans-serif 
+	letter-spacing: 1px;
+    text-align: center;
+    margin-top: 0;
+    color: #54BBAB;
+    background-color: #00859D;
+}
+.modal-footer button:hover{
+    color: white;
+}
 /************CAROUSEL*****************************/
 #myCarousel{
 	margin: 0;
@@ -119,6 +146,7 @@ body{
 .playstore img{
 	width: 65%;
 	margin-top: 200px;
+
 }
 .appstore img{
 	width: 65%;
