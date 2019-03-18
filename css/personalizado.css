@@ -10,22 +10,25 @@ body{
 /*********************************/
 /*xs*/@media (min-width: 350px){
 	.cont-cab{
-	background-color: #00859D;
 	height: 400px; 
 	width: 1400px;
 	}
 }
 /*sm*/@media (min-width: 480px){
 	.cont-cab{
-	background-color: #00859D;
 	height: 475px; 
 	width: 1400px;
 	}
 }
 /*md*/@media (min-width: 640px){
 	.cont-cab{
-	background-color: #00859D;
 	height: 575px; 
+	width: 1400px;
+	}
+}
+/*lg*/@media screen (min-width: 1024px){ /**/
+	.cont-cab{
+	height: 1100px; 
 	width: 1400px;
 	}
 }
@@ -103,7 +106,7 @@ body{
 	margin-top: 40px;
 	}
 }
-/*md*/@media (min-width: 640px){/**/
+/*md*/@media (min-width: 640px){
 	.facebook img{
 	width: 50%;
 	margin-top: 40px;
@@ -308,10 +311,28 @@ body{
 }
 /***********************************************/
 /*xs*/@media (min-width: 350px){
+	.carousel-ite img{
+	height: 500px; 
+	width: 450px;
+	}
 }
 /*sm*/@media (min-width: 480px){
+	.carousel-ite {
+	height: 500px; 
+	width: 580px;
+	}
 }
-/*md*/@media (min-width: 640px){
+/*md*/@media screen (min-width: 640px){
+	.carousel-ite {
+	height: 500px; 
+	width: 1000px;
+	}
+}
+/*lg*/@media screen (min-width: 1024px){
+	.carousel-ite {
+	height: 500px; 
+	width: 1500px;
+	}
 }
 /*************ACERCA DE********************/
 .container-acercade p{
@@ -327,9 +348,17 @@ body{
 	width: 350px;
 }
 /*************************************/
-/*xs*/@media (max-width: 575.98px){
-}
-/*sm*/@media (min-width: 576px) and (max-width: 767.98px){
+/*xs*/@media (min-width: 350px){
+	.container-acercade p{
+	letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+	}
+	.container-acercade img{
+	height: 250px; 
+	width: 250px;
+	float: center;
+	}
 }
 /********FOOTER***************/
 .footer a{
@@ -343,6 +372,7 @@ body{
 .appstore img{
 	width: 65%;
 	margin-top: 200px;
+	float: center;
 }
 .footer p{
 	font-family: Catamaran,Helvetica,Arial,sans-serif;
@@ -350,9 +380,17 @@ body{
     font-size: 10px;
 }
 /********************************/
-/*xs*/@media (min-width: 350px){
-}
-/*sm*/@media (min-width: 480px){
-}
-/*md*/@media (min-width: 640px){
+/*lg*/@media (min-width: 1024px){
+	.playstore img{
+	width: 55%;
+	margin-top: 200px;
+	}
+	.appstore img{
+	width: 55%;
+	margin-top: 200px;
+	}
+	.footer p{
+    letter-spacing: 2px;
+    font-size: 10px;
+	}
 }
